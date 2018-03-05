@@ -34,7 +34,11 @@ Tips:
 
 # Write your code below this line.
 
-# Write your code here.
+def hello(x):
+    return 'Hello, {}!'.format(x)
+
+def print_hello(x):
+    print('Hello, {}!'.format(x))
 
 # Write your code above this line.
 
