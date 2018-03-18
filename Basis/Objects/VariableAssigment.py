@@ -2,6 +2,7 @@
 * Refusing to create a specific item's value
 """
 
+
 class Person():
     def __setattr__(self, key, value):
         if key == 'value':

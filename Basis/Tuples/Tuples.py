@@ -1,9 +1,11 @@
-'''
+"""
 * Tuples: IMMUTABLE ordered sequence of items
 * Similar to Lists, but elements are enclosed within parentheses & their size can NOT be changed (like lists)
 * Expression separated by commas
 * Brackets optional
-'''
+"""
+
+
 tuple1 = ('string 1', 12, 15.0, 'karol', 22)
 tuple2 = 'string'
 tuple3 = ()
