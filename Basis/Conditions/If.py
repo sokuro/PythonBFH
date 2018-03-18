@@ -10,7 +10,7 @@ class DefineIfStatement:
     words1 = ["test1", "test2"]
     words2 = ["other1", "other2"]
 
-    value = input("Enter a word")
+    value = input("Enter a word: ")
 
     if value in words1:
         print('the value is test1')
