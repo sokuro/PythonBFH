@@ -1,3 +1,7 @@
+"""
+* String in Python are immutable!
+"""
+
 # Simple strings
 print('I am a string literal.\n')
 print('I\' am a string literal.\n')
