@@ -103,15 +103,11 @@ def set_destination(*args, **kwargs):
     """Function takes a variable number of positional and keyword
        arguments and prints the destination coordinates."""
     # YOUR CODE HERE
-    print('Going to ', end="")
-    list = []
+    if args:
+        print("Going to x={}, y={}, z={}".format(args[0], args[1], args[2]))
 
-    for x in args:
-        print(f'x={x}, ', end="")
-        break
-
-    for key, value in kwargs.items():
-        print(f'{key}={value}, ', sep=', ', end="", flush=True)
+    if kwargs:
+        print("Going to x={}, y={}, z={}".format(kwargs['x'], kwargs['y'], kwargs['z']))
     pass
 
 
@@ -185,7 +181,7 @@ def key_for_biggest_value(**kwargs):
     max_value = None
 
     for key, value in kwargs.items():
-        if max_value is None or value>max_value:
+        if max_value is None or value > max_value:
             valueList = key
             max_value = value
         elif value == max_value:
