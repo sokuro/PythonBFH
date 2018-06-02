@@ -4,8 +4,8 @@
 
 
 class MyClass:
-    """ instantiation Operation """
 
+    """ instantiation Operation """
     def __init__(self, str):
         self._str = str
 
@@ -13,7 +13,6 @@ class MyClass:
     i = 123
 
     """ Method Example """
-
     def f(self):
         print(f'{self._str}')
 
