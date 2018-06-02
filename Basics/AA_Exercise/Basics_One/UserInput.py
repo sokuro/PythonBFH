@@ -7,4 +7,4 @@
 firstName = input('Please, enter your first Name: ')
 lastName = input('Please, enter your last Name: ')
 
-print('Hello ' + firstName + ' ' + lastName + ' !')
+print('Hello ' + lastName + ' ' + firstName + ' !')
