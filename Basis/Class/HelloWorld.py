@@ -28,6 +28,7 @@ def main():
     """ assign the Object to a local Variable """
     greeting = MyClass('hello world')
 
+    """ call the Method """
     greeting.f()
 
 
