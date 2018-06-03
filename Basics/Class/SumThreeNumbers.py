@@ -12,19 +12,6 @@ class SumThreeNumbers:
         self._y = y
         self._z = z
 
-    # def get_input(self):
-    #
-    #     # User Input
-    #     intInput = input('Input 3 Integers : ')
-    #
-    #     # Build a List from the Input
-    #     list = intInput.split(' ')
-    #
-    #     # convert to Integer
-    #     self._x = int(list[0])
-    #     self._y = int(list[1])
-    #     self._z = int(list[2])
-
     def calculate_sum(self):
 
         x = self._x
