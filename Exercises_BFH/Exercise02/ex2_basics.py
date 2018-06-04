@@ -1,5 +1,5 @@
 """
-Exercise 2: Python Language Elements
+Exercises 2: Python Language Elements
 BTI7541, Prof. Dr. René Müller
 
 PART I: BASICS
