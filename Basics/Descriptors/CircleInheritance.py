@@ -11,6 +11,10 @@ class Circle(Widget):
     def __init__(self, radius):
         self._radius = radius
 
+    @property
+    def circumference(self):
+        return 2 * self._radius * self.PI
+
 
 def main():
     mycircle = Circle(2)
@@ -35,6 +39,11 @@ def main():
     """
         mro(): Method Resolution Order
     """
-    print(type(mycircle).mro())
+    # print(type(mycircle).mro())
+
+    """
+        Value of the Circumference
+    """
+    print(mycircle.circumference)
 
 main()
