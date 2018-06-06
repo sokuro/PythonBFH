@@ -23,13 +23,16 @@ print(s2)                       # >> 1
 s3 = manual_sum(1, 2)
 print(s3)                       # >> 3
 
+s4 = manual_sum(1, 2, 3)
+print(s4)                       # >> 3
+
 
 # adding a tuple
 newTuple = [1, 2, 3, 4]
 
 # ERROR => TypeError
-# s4 = manual_sum(newTuple)     # can not add a list to an integer!
+# s5 = manual_sum(newTuple)     # can not add a list to an integer!
 
 # Solution
-s5 = manual_sum(*newTuple)
-print(s5)                       # >> 10
+s6 = manual_sum(*newTuple)
+print(s6)                       # >> 10
