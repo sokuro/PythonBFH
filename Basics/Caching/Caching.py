@@ -1,9 +1,10 @@
 """
-* Memoization: Caching computed values in order to avoid repeated costly computations
+    Memoization: Caching computed values in order to avoid repeated costly computations
 """
 
 
 def costly_computation(x):
+    # compute a long Time
     return 42
 
 
