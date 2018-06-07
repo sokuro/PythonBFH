@@ -7,15 +7,20 @@
 def temp(**kwargs):
 
     for k, v in kwargs.items():
-        print(f'{k} = {v}')
+        print(f'{k} = {v}')     # k: key, v: value
 
 
 temp()
 
+print('\n')
+
 temp(x=1)                       # >> x = 1
+
+print('\n')
 
 temp(x=1, y=3)                  # >> x = 1, y = 3
 
+print('\n')
 
 # defining a new dictionary
 d = {'z': 10, 'w': 11}
