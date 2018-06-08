@@ -26,6 +26,9 @@ def calculate_letters(str):
     print('Upper Case Letters: ', d["upper_case"])
     print('Lower Case Letters: ', d["lower_case"])
 
+    print(d.items())
+    # >> dict_items([('upper_case', 2), ('lower_case', 8)])
+
 
 def main():
     calculate_letters('Lorem Ipsum')
