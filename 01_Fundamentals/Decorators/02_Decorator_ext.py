@@ -15,7 +15,7 @@ def decorator_function(original_function):
 
         # pass the Argument directly into the inner Function
         # execute the Function
-        original_function()
+        return original_function()
 
     # by removing the () the Function is waiting to be executed
     return wrapper_function

@@ -22,7 +22,7 @@ def decorator_function(original_function):
         # pass the Argument directly into the inner Function
         # execute the Function
         # use *args, **kwargs
-        original_function(*args, **kwargs)
+        return original_function(*args, **kwargs)
 
     # by removing the () the Function is waiting to be executed
     return wrapper_function
