@@ -24,7 +24,7 @@ def display():
 
 def main():
 
-    # display Function passed in
+    # display Function passed into the Decorator Function
     decorated_display = decorator_function(display)
 
     decorated_display()
