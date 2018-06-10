@@ -22,6 +22,7 @@ def outer_function(msg):
 def main():
 
     # assign to a Variable
+    # unique message Variable
     hi_func = outer_function("Hi")
     bye_func = outer_function("Bye")
 
