@@ -24,9 +24,14 @@ def filter_lambda():
     return list(filter(lambda x: x % 2 == 0, l))
 
 
+# elegant using anonymous lambda
+f = list(filter(lambda x: x % 2 == 0, l))
+
+
 def main():
     print(filter_evens())
     print(filter_lambda())
+    print(f)
 
 
 main()
