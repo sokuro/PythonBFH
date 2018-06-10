@@ -1,8 +1,7 @@
 """
-    Decorators
-
     Closure
 """
+
 
 def outer_function():
 

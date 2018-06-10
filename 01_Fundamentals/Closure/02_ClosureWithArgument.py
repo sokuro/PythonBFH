@@ -1,7 +1,7 @@
 """
-    Decorators with Arguments
-
     Closure
+
+    Extend the Function with a Variable
 """
 
 
