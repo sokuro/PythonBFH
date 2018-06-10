@@ -26,15 +26,20 @@ def map_function(l):
     return list(map(inc, l))
 
 
-# map with Lambda
+# map with Lambda (Redundancy! => Lambda is anonym)
 def map_lambda(l):
     return list(map(lambda x: x + 1, l))
+
+
+# elegant (but no PEP 8)
+r = list(map(lambda x: x + 1, l))
 
 
 def main():
     print(map_loop(l))
     print(map_function(l))
     print(map_lambda(l))
+    print(r)
 
 
 main()
