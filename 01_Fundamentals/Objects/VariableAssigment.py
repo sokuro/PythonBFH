@@ -1,9 +1,10 @@
 """
-* Refusing to create a specific item's value
+    Refusing to create a specific item's value
 """
 
 
-class Person():
+class Person:
+
     def __setattr__(self, key, value):
         if key == 'value':
             raise AttributeError('No values of the Persons')
@@ -11,10 +12,13 @@ class Person():
 
 
 def main():
+
     eve = Person()
     eve.name = 'Eve'
     print(eve.name)
-    eve.value = 42
+
+    eve.age = 42
+    print(eve.age)
 
 
 main()
