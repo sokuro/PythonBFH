@@ -11,6 +11,9 @@ def divide_number():
 
 divide_number()
 
+# in one Line:
+print([num for num in range(1, 651) if num % 5 == 0 and num % 13 == 0 and num % 39 != 0])
+
 
 """
     filter creates a List of Elements for which the Function returns #true
